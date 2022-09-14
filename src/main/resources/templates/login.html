@@ -1,0 +1,12 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Login</title>
+</head>
+<body>
+	<h1>ログイン</h1>
+	<a href="/home">Googleでログイン</a>
+	<h3 th:if="${param.error}">IDまたはパスワードが違います</h3>
+</body>
+</html>

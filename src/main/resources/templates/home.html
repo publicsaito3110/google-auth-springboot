@@ -1,0 +1,40 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Home</title>
+</head>
+<body>
+	<h1>ようこそ</h1>
+	<p>
+		subject(User ID)：<span th:text="${subject}"></span>
+	</p>
+	<p>
+		email：<span th:text="${email}"></span>
+	</p>
+	<p>
+		emailVerified：<span th:text="${emailVerified}"></span>
+	</p>
+	<p>
+		fullName：<span th:text="${fullName}"></span>
+	</p>
+	<p>
+		picture：<span th:text="${picture}"></span>
+	</p>
+	<p>
+		locale：<span th:text="${locale}"></span>
+	</p>
+	<p>
+		familyName：<span th:text="${familyName}"></span>
+	</p>
+	<p>
+		givenName：<span th:text="${givenName}"></span>
+	</p>
+	<p>
+		authenticationName：<span th:text="${authenticationName}"></span>
+	</p>
+	<p>
+		userRole：<span th:text="${userRole}"></span>
+	</p>
+</body>
+</html>
